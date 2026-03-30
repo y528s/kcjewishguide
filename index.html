@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Guide to Jewish Life in KC</title>
+    <meta name="description" content="Your complete guide to Jewish life in Kansas City — kosher food, synagogues, schools, and community resources." />
+    <meta name="author" content="KC Jewish Community" />
+
+    <meta property="og:title" content="Guide to Jewish Life in KC" />
+    <meta property="og:description" content="Your complete guide to Jewish life in Kansas City." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      // GitHub Pages SPA redirect restoration
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

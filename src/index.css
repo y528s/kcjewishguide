@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 220 30% 15%;
+
+    --card: 40 40% 99%;
+    --card-foreground: 220 30% 15%;
+
+    --popover: 40 40% 99%;
+    --popover-foreground: 220 30% 15%;
+
+    --primary: 215 65% 36%;
+    --primary-foreground: 40 33% 97%;
+
+    --secondary: 35 80% 55%;
+    --secondary-foreground: 40 33% 97%;
+
+    --muted: 40 20% 92%;
+    --muted-foreground: 220 15% 45%;
+
+    --accent: 160 40% 45%;
+    --accent-foreground: 40 33% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 25% 88%;
+    --input: 35 25% 88%;
+    --ring: 215 65% 36%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 40 30% 95%;
+    --sidebar-foreground: 220 30% 15%;
+    --sidebar-primary: 215 65% 36%;
+    --sidebar-primary-foreground: 40 33% 97%;
+    --sidebar-accent: 35 30% 90%;
+    --sidebar-accent-foreground: 220 30% 15%;
+    --sidebar-border: 35 25% 88%;
+    --sidebar-ring: 215 65% 36%;
+
+    /* Custom tokens */
+    --warm: 35 80% 55%;
+    --warm-light: 38 90% 92%;
+    --warm-foreground: 30 60% 20%;
+    --sage: 160 40% 45%;
+    --sage-light: 160 30% 92%;
+    --hero-overlay: linear-gradient(135deg, hsla(215, 65%, 20%, 0.85), hsla(35, 80%, 35%, 0.7));
+    --section-gradient: linear-gradient(180deg, hsl(40 33% 97%) 0%, hsl(38 90% 97%) 100%);
+  }
+
+  .dark {
+    --background: 220 30% 8%;
+    --foreground: 40 20% 92%;
+    --card: 220 25% 12%;
+    --card-foreground: 40 20% 92%;
+    --popover: 220 25% 12%;
+    --popover-foreground: 40 20% 92%;
+    --primary: 215 65% 55%;
+    --primary-foreground: 220 30% 8%;
+    --secondary: 35 70% 50%;
+    --secondary-foreground: 220 30% 8%;
+    --muted: 220 20% 18%;
+    --muted-foreground: 40 15% 60%;
+    --accent: 160 35% 40%;
+    --accent-foreground: 40 20% 92%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 215 65% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+  }
+
+  .card-warm {
+    @apply bg-card border border-border rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+}
