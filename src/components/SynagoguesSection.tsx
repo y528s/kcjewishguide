@@ -32,7 +32,7 @@ const shulGroups: ShulGroup[] = [
     denomination: "Reform",
     shuls: [
       { name: "The Temple, Congregation B'nai Jehudah", url: "https://bnaijehudah.org/" },
-      { name: "Congregation Beth Torah", url: "https://bethtorahkc.org/" },
+      { name: "Congregation Beth Torah", url: "https://beth-torah.org" },
       { name: "New Reform Temple", url: "https://thenewreformtemple.com/" },
     ],
   },
@@ -40,7 +40,6 @@ const shulGroups: ShulGroup[] = [
     denomination: "Independent / Progressive",
     shuls: [
       { name: "Congregation Kol Ami", url: "https://www.kolamikc.org/" },
-      { name: "Temple Israel of Greater Kansas City", url: "http://templeisraelkc.org/" },
     ],
   },
 ];

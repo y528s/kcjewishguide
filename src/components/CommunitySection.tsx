@@ -88,7 +88,7 @@ const CommunitySection = () => {
                 <p className="text-xs mt-0.5 text-muted-foreground">J-LEAD</p>
               </li>
               <li>
-                <ExtLink href="https://kckollel.org"><strong>Torah MiTzion Kansas City</strong></ExtLink>
+                <ExtLink href="https://communitykollel.org"><strong>Torah MiTzion Kansas City</strong></ExtLink>
               </li>
             </ul>
           </InfoCard>
@@ -112,7 +112,7 @@ const CommunitySection = () => {
                 <p className="text-xs mt-0.5 text-muted-foreground">Holocaust education, teacher training, exhibits and archives</p>
               </li>
               <li>
-                <ExtLink href="https://www.ncjwkc.org/"><strong>National Council of Jewish Women (NCJW) Kansas City Section</strong></ExtLink>
+                <ExtLink href="https://kansascity.section.ncjw.org/"><strong>National Council of Jewish Women (NCJW) Kansas City Section</strong></ExtLink>
                 <p className="text-xs mt-0.5 text-muted-foreground">Social justice advocacy, community programs, volunteer initiatives</p>
               </li>
               <li>

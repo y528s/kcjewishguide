@@ -11,7 +11,7 @@ const activities = [
   { name: "Hallmark Kaleidoscope", url: "https://hallmarkkaleidoscope.com/", desc: "Free creative art studio for kids by Hallmark" },
   { name: "Deanna Rose Children's Farmstead", url: "https://www.opkansas.org/recreation-fun/deanna-rose-childrens-farmstead/", desc: "Outdoor farm-themed park with animals, playgrounds, and fishing pond" },
   { name: "Kansas City Zoo & Aquarium", url: "https://kansascityzoo.org/", desc: "Major zoo with African animals, aquarium exhibits, and safari experiences" },
-  { name: "Johnson County Arts & Heritage Center", url: "https://jcprd.com/168/Arts-Heritage-Center", desc: "Arts center with the JoCo Museum and KidScape children's exhibit" },
+  { name: "Johnson County Arts & Heritage Center", url: "https://www.jcprd.com/1835/Arts-Heritage-Center", desc: "Arts center with the JoCo Museum and KidScape children's exhibit" },
   { name: "Andretti Indoor Karting & Games", url: "https://andrettikarting.com/kansas-city", desc: "Indoor kart racing, arcade, and family entertainment complex" },
 ];
 
